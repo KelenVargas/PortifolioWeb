@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  background-color:#87CEFA;
+}
+
+.frase-rodapé {
+  color: white;
+}
+
+footer {
+  background-color: black;
+  font-size: 1.2rem;
+}
+
+.textos {
+  text-align: center;
+}
+
+/* Sobre mim*/
+section.sobre .itens {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  justify-content: space-around;
+  margin: 50px 0;
+  text-align: center;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px
+}
+
+/*Resumo Profissional*/
+section {
+  padding: 60px 0;
+}
+
+.resumo,
+.portfolio,
+.contato,
+#main {
+  margin-top: 50px;
+}
+
+.header-container {
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+.botao {
+  margin-top: 20px;
+}
+
+.links {
+  color: rgb(82, 44, 60);
+}
+
+/*header page inicial*/
+
+
+.title-index {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  color: rgb(92, 71, 112);
+}
